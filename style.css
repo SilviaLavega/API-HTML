@@ -1,0 +1,71 @@
+body {
+  background-color: purple;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo {
+  font-style: italic;
+  font-size: 25px;
+  color: white;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.cargandoMensaje {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: purple;
+  font-weight: 700;
+  padding: 35px;
+}
+
+.div {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 16px;
+  margin-top: 16px;
+
+}
+
+
+input[type="file"] {
+  background-color: purple;
+  font-style: italic;
+}
+
+input[name="file"] {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.thumb {
+  height: 50%;
+  margin-top: 40px;
+  visibility: hidden;
+}
+
+.boton {
+  cursor: pointer;
+  margin-right: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 35px;
+  background: purple);
+  transition: all .3s ease-in;
+}
+
+.boton:hover {
+  background: orange;
+  color: black);
+}
+
+.boton:focus {
+  background: orange;
+  color: black;
+}
